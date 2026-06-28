@@ -1,29 +1,13 @@
-<div align="center">
-<h1>Minimal Portfolio Website</h1>
-This a minimal portfolio website for designers and developers.
-</div>
- &nbsp;
-<img src="Preview.png">
+# Cleanfolio Minimal
 
-* More features will be added according to the user needs.
+A portfolio template built with HTML, CSS, and JavaScript.
 
-Install jekyll and bundler:
-```bash
-gem install jekyll bundler
-```
+## Preview
 
-Install gems:
-```bash
-bundle install
-```
+[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rjshkhr.github.io/cleanfolio-minimal)
 
-Build and serve locally with:
-```bash
-bundle exec jekyll s
-```
+[Live Demo](https://rjshkhr.github.io/cleanfolio-minimal)
 
-The site should now be available at http://0.0.0.0:4000/
+## License
 
-<div align="center">
-<sub><sup>© 2021 Vyshnav, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
-</div>
+[MIT](https://choosealicense.com/licenses/mit/)

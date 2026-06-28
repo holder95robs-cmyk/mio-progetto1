@@ -1,23 +1,18 @@
-/*====================
-  contact icons (custom)
-====================*/
-
 .contact__icons {
   display: flex;
-  gap: 22px;
-  align-items: center;
+  gap: 25px;
   justify-content: center;
-  margin-top: 1.5em;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .contact__icons .link--icon {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--clr-fg);
-  transition: transform 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .contact__icons .link--icon:hover {
-  transform: translateY(-4px) scale(1.15);
+  transform: translateY(-4px) scale(1.2);
   color: var(--clr-primary);
-  opacity: 0.9;
 }

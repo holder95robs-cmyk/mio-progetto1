@@ -1,3 +1,7 @@
+/*====================
+  contact icons FIX
+====================*/
+
 .contact__icons {
   display: flex;
   gap: 25px;
@@ -9,10 +13,10 @@
 .contact__icons .link--icon {
   font-size: 2rem;
   color: var(--clr-fg);
-  transition: 0.2s ease;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .contact__icons .link--icon:hover {
-  transform: translateY(-4px) scale(1.2);
+  transform: translateY(-5px) scale(1.15);
   color: var(--clr-primary);
 }

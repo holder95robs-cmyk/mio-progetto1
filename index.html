@@ -1,119 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Photography portfolio" />
+    <meta name="keywords" content="Photography, Portfolio, Travel" />
+    <link rel="icon" href="/photographer-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
+    <link rel="apple-touch-icon" href="/photographer-icon.png" />
+    <link href="/src/core-ui/index.css" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="styles.css" />
-
-    <title>Visivo - Studio</title>
+    <title>Travel With Catherine</title>
   </head>
 
-  <body class="light" id="top">
-
-    <!-- HEADER -->
-    <header class="header center">
-      <h3><a href="#" class="link">VISIVO STUDIO</a></h3>
-
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item"><a class="link link--nav" href="#projects">Progetti</a></li>
-          <li class="nav__list-item"><a class="link link--nav" href="#skills">Skills</a></li>
-          <li class="nav__list-item"><a class="link link--nav" href="#contact">Contatti</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-
-      <!-- ABOUT -->
-      <section class="about center">
-        <h1>Hi, I am <span class="about__name">Visivo Studio</span></h1>
-        <h2 class="about__role">Photographer & Filmmaker</h2>
-
-        <p class="about__desc">
-          Portfolio creativo di fotografia e filmmaking.
-        </p>
-      </section>
-
-      <!-- PROJECTS -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Progetti</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>Project 1</h3>
-            <p class="project__description">Work sample</p>
-          </div>
-
-          <div class="project">
-            <h3>Project 2</h3>
-            <p class="project__description">Work sample</p>
-          </div>
-
-          <div class="project">
-            <h3>Project 3</h3>
-            <p class="project__description">Work sample</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- SKILLS -->
-      <section id="skills" class="section skills">
-        <h2 class="section__title">Skills</h2>
-
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Photography</li>
-          <li class="skills__list-item btn btn--plain">Video Editing</li>
-          <li class="skills__list-item btn btn--plain">Filmmaking</li>
-        </ul>
-      </section>
-
-      <!-- CONTACT -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-
-        <div class="contact__icons center">
-
-          <a
-            href="https://instagram.com/tuoprofilo"
-            target="_blank"
-            class="link link--icon"
-            aria-label="Instagram"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-
-          <a
-            href="mailto:rjshekhar.official@gmail.com"
-            class="link link--icon"
-            aria-label="Email"
-          >
-            <i class="fas fa-envelope"></i>
-          </a>
-
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="footer">
-      <p>Visivo Studio</p>
-    </footer>
-
-    <script src="./script.js"></script>
+  <body className="box-border relative bg-white m-0 p-0 min-h-screen">
+    <div id="root" class="grid grid-cols-2 sm:grid-cols-6"></div>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
